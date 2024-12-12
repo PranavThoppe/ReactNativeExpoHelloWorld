@@ -1,14 +1,12 @@
 import { Text, View, StyleSheet } from "react-native";
-import { Link } from "expo-router";
 
-export default function NotFoundScreen() {
+export default function AboutScreen() {
   return (
     <View
       style={styles.container}
     >
       <Text
-      style={styles.text}>Page Not Found</Text>
-      <Link href={"/"} style={styles.button}>Go Back</Link>
+      style={styles.text}>About</Text>
       
     </View>
   );
